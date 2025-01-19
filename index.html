@@ -1,297 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
-  <title>Anuj Padhiyar</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="base" content="index.html" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Nunito&amp;display=swap" rel="stylesheet"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/commond5c2.css?h=5973d4556e23e9912129" />
+  <link rel="stylesheet" href="./assets/css/homepage105f.css?h=dc82ff90c7b5ee57a76a" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/png" />
+  <title>Home | Anuj Padhiyar</title>
+  <meta property="og:title" content="Home" />
+  <meta name="twitter:title" content="Home" />
+  <meta name="copyright" content="Anuj Padhiyar" />
+  <meta name="description"
+    content="Hey, I&#x27;m Anuj Padhiyar from India. I like to Travelling around the world, Playing Outdoor Games and Creating Logics." />
+  <meta property="og:description"
+    content="Hey, I&#x27;m Anuj Padhiyar from India. I like to Travelling around the world, Playing Outdoor Games and Creating Logics." />
+  <meta name="twitter:description"
+    content="Hey, I&#x27;m Anuj Padhiyar from India. I like to Travelling around the world, Playing Outdoor Games and Creating Logics." />
+  <link rel="canonical" href="index.html" />
+  <meta property="og:url" content="index.html" />
+  <meta name="twitter:url" content="index.html" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:site_name" content="Anuj Padhiyar" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
 </head>
+
 <body>
-
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Anuj Padhiyar">
-  </a>
-  <p class="device-notification--message">
-    Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.
-  </p>
-</div>
-
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Anuj Padhiyar">
+  <header>
+    <nav class="navbar--sticky">
+      <div>
+        <button id="drawer-open" class="icon-button" aria-label="Open Navigation Drawer">
+          <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </button>
+        <h1><a href="index.html#top">Anuj Padhiyar</a></h1>
+      </div>
+      <div>
+        <a class="button--big" href="index.html"> Home </a>
+        <a class="button--big" href="blog/index.html"> Blog </a>
+        <a class="button--big" href="impossiblelist/index.html">
+          Impossible List
+        </a>
+        <a class="button--big" href="cv/index.html"> CV </a>
+      </div>
+    </nav>
+    <dialog id="navbar-drawer">
+      <button id="drawer-close" class="icon-button" aria-label="Close Navigation Drawer">
+        <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+          <path
+            d="M18.3 5.71a.9959.9959 0 0 0-1.41 0L12 10.59 7.11 5.7a.9959.9959 0 0 0-1.41 0c-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z">
+          </path>
+        </svg>
+      </button>
+      <div class="navbar-drawer-links">
+        <a class="button--big" href="index.html"> Home </a>
+        <a class="button--big" href="blog/index.html"> Blog </a>
+        <a class="button--big" href="impossiblelist/index.html">
+          Impossible List
+        </a>
+        <a class="button--big" href="cv/index.html"> CV </a>
+      </div>
+    </dialog>
+    <div id="navbar-trigger" style="position: absolute; width: 1px; height: 1px; top: 100px; left: 0"></div>
+  </header>
+  <main id="top">
+    <div id="tsparticles" style="position: fixed; inset: 0; z-index: -10;"></div>
+    <canvas class="background" style="position: fixed; inset: 0; z-index: -10"></canvas>
+    <div class="splash">
+      <img class="profile-picture" src="assets/images/profile.jpeg" alt="Profile image of Anuj Padhiyar" />
+      <h1>Anuj Padhiyar</h1>
+      <h2>Developer, Designer &amp; Learner</h2>
+      <div class="socials">
+        <div class="has-tooltip">
+          <a href="https://github.com/anuj-padhiyar" target="_blank" rel="noopener">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>GitHub</title>
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
           </a>
-          <button class="header--cta cta">Connect Now</button>
-          <div class="header--nav-toggle">
-            <span></span>
+          <span class="tooltip" tip-position="bottom">anuj-padhiyar</span>
+        </div>
+        <div class="has-tooltip">
+          <a href="https://www.linkedin.com/in/anuj-padhiyar/" target="_blank" rel="noopener">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>Linkedin</title>
+              <path
+                d="M4.98 3.5c0 1.38-1.12 2.5-2.5 2.5S0 4.88 0 3.5 1.12 1 2.5 1s2.5 1.12 2.5 2.5zM0 8.56h4.77v15.46H0V8.56zm7.96 0h4.58v2.1h.07c.64-1.2 2.2-2.47 4.52-2.47 4.83 0 5.73 3.18 5.73 7.31v8.52h-4.78v-7.54c0-1.8-.03-4.1-2.5-4.1-2.5 0-2.88 1.95-2.88 3.97v7.67H7.96V8.56z" />
+            </svg>
+          </a>
+          <span class="tooltip" tip-position="bottom">anuj-padhiyar</span>
+        </div>
+        <div class="has-tooltip">
+          <a href="https://x.com/anujs74" target="_blank" rel="noopener">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>X</title>
+              <path
+                d="M23.954 4.57a10.002 10.002 0 0 1-2.825.775A4.932 4.932 0 0 0 23.337 3a9.869 9.869 0 0 1-3.127 1.184 4.918 4.918 0 0 0-8.38 4.482C7.69 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 0 0-.666 2.475 4.918 4.918 0 0 0 2.188 4.1 4.903 4.903 0 0 1-2.23-.616v.06a4.93 4.93 0 0 0 3.946 4.827 4.928 4.928 0 0 1-2.224.084 4.93 4.93 0 0 0 4.604 3.417 9.868 9.868 0 0 1-6.102 2.104c-.395 0-.78-.023-1.165-.067a13.947 13.947 0 0 0 7.548 2.212c9.05 0 13.998-7.496 13.998-13.997 0-.212-.005-.425-.014-.637A9.936 9.936 0 0 0 24 4.59z" />
+            </svg>
+          </a>
+          <span class="tooltip" tip-position="bottom">anujs74</span>
+        </div>
+        <div class="has-tooltip">
+          <a href="https://www.kaggle.com/anujpadhiyar" target="_blank" rel="noopener">
+            <svg role="img" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>Kaggel</title>
+              <path
+                d="M7.998,0H5.598C5.365,0,5.25,0.118,5.25,0.352v23.295c0,0.235,0.115,0.352,0.348,0.352h2.401c0.232,0,0.349-0.117,0.349-0.352v-5.11l1.427-1.374l5.115,6.59C15.027,23.918,15.189,24,15.375,24h3.097c0.162,0,0.255-0.047,0.278-0.141l-0.07-0.353l-6.749-8.494l6.471-6.343c0.121-0.124,0.078-0.493-0.244-0.493h-3.201c-0.162,0-0.324,0.083-0.487,0.247l-6.123,6.273V0.352C8.347,0.118,8.23,0,7.998,0z"
+                fill="#ffffff" class="color000000 svgShape" />
+            </svg>
+          </a>
+          <span class="tooltip" tip-position="bottom">anuj-padhiyar</span>
+        </div>
+        <div class="has-tooltip">
+          <a href="https://leetcode.com/u/stackfire/" target="_blank" rel="noopener">
+            <svg role="img" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>Leetcode</title>
+              <path
+                d="M20.1,16.007h-9.187c-1.047,0-1.899-0.897-1.899-2s0.853-2,1.899-2H20.1c1.048,0,1.9,0.897,1.9,2S21.147,16.007,20.1,16.007z M10.913,13.507c-0.217,0-0.399,0.229-0.399,0.5s0.183,0.5,0.399,0.5H20.1c0.217,0,0.4-0.229,0.4-0.5s-0.184-0.5-0.4-0.5H10.913z">
+              </path>
+              <path
+                d="M10.538,24c-1.621,0-3.011-0.55-4.021-1.589l-3.949-4.09C1.557,17.278,1,15.803,1,14.167c0-1.61,0.557-3.072,1.568-4.117l9.174-9.47C12.104,0.206,12.592,0,13.113,0c0,0,0,0,0.001,0c0.54,0,1.049,0.218,1.434,0.614c0.766,0.792,0.78,2.061,0.032,2.828l-1.443,1.511C13.549,5.18,13.985,5.5,14.511,5.95l2.361,1.963c0.804,0.824,0.788,2.093,0.024,2.882c-0.386,0.397-0.895,0.615-1.435,0.615c-0.001,0-0.001,0-0.002,0c-0.521,0-1.007-0.207-1.367-0.581l-2.377-1.876c-0.668-0.497-0.783-0.534-1.19-0.534c-0.422,0-0.803,0.159-1.164,0.486l-3.886,4.069c-0.282,0.291-0.43,0.702-0.43,1.191c0,0.498,0.155,0.945,0.427,1.226l3.937,4.091c0.251,0.26,0.627,0.392,1.116,0.392c0.49,0,0.866-0.132,1.116-0.392l2.461-2.454c0.351-0.363,0.836-0.569,1.357-0.57c0,0,0.001,0,0.002,0c0.539,0,1.049,0.219,1.434,0.616c0.765,0.79,0.78,2.058,0.034,2.825l-2.365,2.469C13.542,23.422,12.113,24,10.538,24z M13.113,1.5c-0.079,0-0.194,0.021-0.294,0.124l-9.173,9.469C2.907,11.856,2.5,12.948,2.5,14.167c0,1.244,0.407,2.349,1.146,3.11c0.001,0.001,0.001,0.001,0.001,0.002l3.948,4.089c0.72,0.74,1.737,1.132,2.943,1.132c1.183,0,2.202-0.405,2.946-1.173l2.365-2.469c0.188-0.193,0.172-0.531-0.032-0.741c-0.1-0.103-0.226-0.159-0.356-0.159l0,0c-0.078,0-0.192,0.021-0.29,0.122l-2.46,2.454c-0.526,0.546-1.285,0.84-2.186,0.84c-0.898,0-1.658-0.294-2.195-0.85l-3.937-4.091c-0.546-0.565-0.848-1.371-0.848-2.268c0-0.874,0.302-1.667,0.849-2.231l3.921-4.104c0.67-0.609,1.421-0.912,2.21-0.912c0.878,0,1.315,0.258,2.104,0.845l2.468,1.957c0.172,0.168,0.285,0.189,0.364,0.189l0,0c0.131,0,0.258-0.057,0.357-0.159c0.202-0.21,0.219-0.549,0.034-0.739l-2.311-1.915c-1.026-0.881-1.474-1.02-1.844-1.086c-0.271-0.05-0.51-0.247-0.595-0.51c-0.086-0.263-0.036-0.554,0.155-0.753l2.241-2.347c0.189-0.195,0.173-0.533-0.03-0.743C13.372,1.557,13.245,1.5,13.113,1.5z">
+              </path>
+            </svg>
+          </a>
+          <span class="tooltip" tip-position="bottom">anuj-padhiyar</span>
+        </div>
+        <div class="has-tooltip">
+          <a href="mailto:anujsp.47@gmail.com" target="_blank" rel="noopener">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>E-mail</title>
+              <path
+                d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z" />
+            </svg>
+          </a>
+          <span class="tooltip" tip-position="bottom">anujsp.47@gmail.com</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="about-me">
+      <div class="container">
+        <p><strong>Hey!</strong></p>
+        <p>
+          I'm Anuj padhiyar from India!<br />
+          I like traveling around the world, learning new ideas, and creating logics.<br />
+          Feel free to get in touch or take a look at my past work below.
+        </p>
+      </div>
+    </div>
+
+    <div class="section-title" id="portfolio">
+      <h2>Portfolio</h2>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>My top projects</h3>
+
+        <div class="top-projects">
+          <div class="card" style="background-color: #0a74db; color: #fff">
+            <div class="card-content">
+              <img src="assets/images/image_stegnography.png" alt="Image Stegnography" />
+              <h4>Image Stegnography</h4>
+              <div>
+                <p>
+                  This project allows users to hide secret data within digital images, ensuring the image’s visual
+                  integrity is maintained.<br />
+                  It offers a secure and efficient way to embed information without altering the appearance of the
+                  original image.
+                </p>
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/anuj-padhiyar/image-steganography" target="_blank" rel="noopener"
+                class="button">
+                Visit Github
+              </a>
+            </div>
           </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>About</span></li>
-            <li><span>Projects</span></li>
-            <li><span>Contact</span></li>
-            <li><span>Hire us</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Hey I'm Anuj<br>Padhiyar</h1>
-                <button class="cta">Get in touch
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <div class="intro--options">
-                <a href="#0">
-                  <h3>Developer</h3>
-                  <p>Transforming Ideas into Powerful Software Solutions</p>
-                </a>
-                <a href="#0">
-                    <h3>Designer</h3>
-                    <p>Createing cutting-edge solutions that revolutionize businesses</p>
-                </a>
-                <a href="#0">
-                  <h3>Learner</h3>
-                  <p>AI and Machine Learning Enthusiast</p>
-                </a>
+
+          <div class="card" style="background-color: #e91425; color: #fff">
+            <div class="card-content">
+              <img src="assets/images/youtube_downloader.png" alt="Youtube Downloader" />
+              <h4>Youtube Downloader</h4>
+              <div>
+                <p>
+                  This tool lets users download videos, audio tracks, or playlists from YouTube. It supports
+                  customizable resolutions, audio-only downloads, and allows you to save files in your preferred
+                  location effortlessly.
+                </p>
               </div>
             </div>
+            <div class="card-actions">
+              <a href="https://github.com/anuj-padhiyar/YoutubeDownloader" target="_blank" rel="noopener"
+                class="button">
+                View Github
+              </a>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #273377; color: #fff">
+            <div class="card-content">
+              <img src="assets/images/physics_buddy.png" alt="Physics Buddy" />
+              <h4>Physics Buddy</h4>
+              <div>
+                <p>
+                  Developed a Physics Chatbot that efficiently answers physics-related queries and provides
+                  explanations. <br>It features web scraping to gather content and uses deep learning for pattern
+                  recognition.
+                </p>
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/anuj-padhiyar/PhysicsBuddy" target="_blank" rel="noopener" class="button">
+                Visit Github
+              </a>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #434343; color: #fff">
+            <div class="card-content">
+              <img src="assets/images/work-load.png" alt="Loading.." />
+              <h4>Category Classification Model</h4>
+              <div>
+                <p>
+                  <br><br>Coming Soon..
+                </p>
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="" target="_blank" rel="noopener" class="button">
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <h3>Timeline</h3>
+        <div class="timeline">
+          <div class="timeline-element">
+            <span class="timeline-element-icon" style="background-color: #a3e6e1; color: #fff">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <image href="assets/images/ylytic.jpg" x="0" y="0" width="24" height="24" />
+              </svg>
+            </span>
+            <div class="timeline-element-content">
+              <h4>Ylytic</h4>
+              <h5>Senior Software Engineer</h5>
+              <p>Gurugram, Haryana</p>
+              <div>
+                <p>
+                  Implemented a comprehensive WhatsApp outreach feature to enhance client-creator interactions and fully
+                  automate the campaign management process. Designed a streamlined workflow allowing clients to define
+                  campaign details, connect with creators, manage content uploads, and oversee progress until final
+                  approval and publishing. Improved operational efficiency and simplified the overall campaign process,
+                  ensuring a seamless and effective experience for clients.
+                </p>
+              </div>
+              <span class="timeline-element-date">Nov 2024 - Present</span>
+            </div>
+          </div>
+
+          <div class="timeline-element">
+            <span class="timeline-element-icon" style="background-color: #a3e6e1; color: #fff">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <image href="assets/images/ylytic.jpg" x="0" y="0" width="24" height="24" />
+              </svg>
+            </span>
+            <div class="timeline-element-content">
+              <h4>Ylytic</h4>
+              <h5>Software Engineer</h5>
+              <p>Pune, Maharastra</p>
+              <div>
+                <p>
+                  Specialized in managing and optimizing backend operations for websites by utilizing technologies such
+                  as Python, MongoDB, Bitbucket, and Docker. This ensured smooth and efficient functionality, helping to
+                  improve the overall system performance.<br>I focused on optimizing data fetching processes, which led
+                  to a significant reduction in fetching time by nearly 67%, leveraging AWS services like Lambdas and
+                  SQS. Additionally, I worked on analyzing data from various sources, including Instagram, YouTube,
+                  TikTok, and Shopify, to enhance the data presentation, making the user experience smoother, more
+                  efficient, and effective.
+                </p>
+              </div>
+              <span class="timeline-element-date">Sep 2023 - Oct 2024</span>
+            </div>
+          </div>
+
+          <div class="timeline-element">
+            <span class="timeline-element-icon" style="background-color: #008ff8; color: #fff">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+              <svg height="200px" width="200px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#ffffff">
+                <path class="st0"
+                  d="M81.876,169.851v-68.266l67.776,43.851v55.916c0,0,0.351-0.157,0.942-0.416 c1.042,29.01,13.236,55.26,32.406,74.413c20.057,20.075,47.858,32.517,78.474,32.508c30.616,0.01,58.427-12.432,78.474-32.508 c19.179-19.153,31.373-45.403,32.407-74.413c0.599,0.259,0.95,0.416,0.95,0.416v-55.916l86.412-55.906L261.473,0L63.24,89.531 v80.32c-6.277,1.486-10.956,7.089-10.956,13.817v4.07H92.84v-4.07C92.84,176.94,88.151,171.337,81.876,169.851z M170.889,194.385 c22.282-5.345,58.454-8.464,90.584,14.02c32.13-22.484,68.312-19.365,90.593-14.02c0.018,0.831,0.055,1.66,0.055,2.491 c0,25.07-10.125,47.664-26.546,64.104c-16.438,16.42-39.033,26.546-64.102,26.554c-25.059-0.008-47.655-10.134-64.093-26.554 c-16.42-16.439-26.546-39.034-26.555-64.104C170.825,196.045,170.871,195.216,170.889,194.385z">
+                </path>
+                <path class="st0"
+                  d="M52.284,219.592c0,7.864,6.368,14.232,14.233,14.232h12.091c7.854,0,14.232-6.369,14.232-14.232v-23.38H52.284 V219.592z">
+                </path>
+                <path class="st0"
+                  d="M326.989,314.024c0,0-3.185,2.547-8.926,5.861l-56.589,95.761l-56.589-95.761 c-5.741-3.314-8.925-5.861-8.925-5.861c-51.209,22.586-72.29,76.812-72.29,119.732c0,42.929,0,78.244,0,78.244h275.619 c0,0,0-35.315,0-78.244C399.288,390.836,378.197,336.61,326.989,314.024z">
+                </path>
+              </svg>
+            </span>
+            <div class="timeline-element-content">
+              <h4>NIT Kurukshetra</h4>
+
+              <h5>Master of Technology</h5>
+
+              <div>
+                <p>
+                  I pursued my M.Tech in Computer Engineering from the National Institute of Technology, Kurukshetra,
+                  achieving a CGPA of 8.10. During my studies, I focused on relevant coursework, including Machine
+                  Learning and Image Processing.
+                </p>
+              </div>
+              <span class="timeline-element-date">2021 - 2023</span>
+            </div>
+          </div>
+
+          <div class="timeline-element">
+            <span class="timeline-element-icon" style="background-color: hsl(176, 69%, 36%); color: #000">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"
+                viewBox="0 0 24 24">
+                <image xlink:href="https://www.cybercom.co.in/wp-content/uploads/2013/04/favicon.ico" x="0" y="0"
+                  width="24" height="24" />
+              </svg>
+            </span>
+            <div class="timeline-element-content">
+              <h4>Cybercom Creation</h4>
+
+              <h5>Junior Software Developer</h5>
+
+              <div>
+                <p>
+                  I gained hands-on experience in web development and application maintenance using PHP, Magento, HTML,
+                  CSS, and JavaScript. My responsibilities included maintaining and optimizing cron jobs to ensure
+                  efficiency. I also worked on learning the Magento framework to enhance my understanding of
+                  e-commerce platforms. Additionally, I refactored cron jobs to improve their clarity and
+                  performance.
+                </p>
+              </div>
+              <span class="timeline-element-date">Jan 2021 - Aug 2021</span>
+            </div>
+          </div>
+
+          <div class="timeline-element">
+            <span class="timeline-element-icon" style="background-color: #f44336; color: #fff">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />
+              </svg>
+            </span>
+            <div class="timeline-element-content">
+              <h4>Gujarat Technological University</h4>
+              <h5>Bachelor of Engineering</h5>
+              <p>Rajkot, Gujarat</p>
+              <div>
+                <p>
+                  I completed my B.Tech from Gujarat Technological University (GTU) with a CGPA of 9.23. During my
+                  studies, I focused on key subjects such as Data Structures and Operating Systems, which laid a strong
+                  foundation for my technical skills.
+                </p>
+              </div>
+              <span class="timeline-element-date">2017 - 2021</span>
+            </div>
+          </div>
+
+          <div class="timeline-element">
+            <span class="timeline-element-icon" style="background-color: #007396; color: #fff">
+              <svg fill="#ffffff" height="200px" width="200px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+                <path
+                  d="M503.467,371.2h-25.6V106.667c0-14.114-11.486-25.6-25.6-25.6H59.733c-14.114,0-25.6,11.486-25.6,25.6V371.2h-25.6 c-4.71,0-8.533,3.823-8.533,8.533v25.6c0,14.114,11.486,25.6,25.6,25.6h460.8c14.114,0,25.6-11.486,25.6-25.6v-25.6 C512,375.023,508.177,371.2,503.467,371.2z M215.834,279.834l68.267-68.267c3.337-3.337,8.73-3.337,12.066,0l36.634,36.634 l64.734-64.734H358.4c-4.71,0-8.533-3.823-8.533-8.533c0-4.71,3.823-8.533,8.533-8.533h59.733c1.109,0,2.219,0.23,3.26,0.657 c2.091,0.87,3.746,2.526,4.617,4.617c0.427,1.041,0.657,2.15,0.657,3.26v59.733c0,4.71-3.823,8.533-8.533,8.533 s-8.533-3.823-8.533-8.533v-39.134L338.833,266.3c-1.664,1.664-3.849,2.5-6.033,2.5c-2.185,0-4.369-0.836-6.033-2.5 l-36.634-36.634L227.9,291.9c-1.664,1.664-3.849,2.5-6.033,2.5c-2.185,0-4.369-0.836-6.033-2.5 C212.497,288.563,212.497,283.17,215.834,279.834z M119.467,174.933H153.6c4.71,0,8.533,3.823,8.533,8.533 c0,4.71-3.823,8.533-8.533,8.533h-34.133c-4.71,0-8.533-3.823-8.533-8.533C110.933,178.756,114.756,174.933,119.467,174.933z M119.467,209.067h17.067c4.71,0,8.533,3.823,8.533,8.533s-3.823,8.533-8.533,8.533h-17.067c-4.71,0-8.533-3.823-8.533-8.533 S114.756,209.067,119.467,209.067z M119.467,243.2H153.6c4.71,0,8.533,3.823,8.533,8.533c0,4.71-3.823,8.533-8.533,8.533h-34.133 c-4.71,0-8.533-3.823-8.533-8.533C110.933,247.023,114.756,243.2,119.467,243.2z M119.467,277.333h17.067 c4.71,0,8.533,3.823,8.533,8.533c0,4.71-3.823,8.533-8.533,8.533h-17.067c-4.71,0-8.533-3.823-8.533-8.533 C110.933,281.156,114.756,277.333,119.467,277.333z M76.8,166.4c0-4.71,3.823-8.533,8.533-8.533c4.71,0,8.533,3.823,8.533,8.533 v136.533c0,4.71-3.823,8.533-8.533,8.533c-4.71,0-8.533-3.823-8.533-8.533V166.4z M494.933,405.333 c0,4.702-3.831,8.533-8.533,8.533H25.6c-4.702,0-8.533-3.831-8.533-8.533v-17.067h25.6H179.2v8.533 c0,4.71,3.823,8.533,8.533,8.533h136.533c4.71,0,8.533-3.823,8.533-8.533v-8.533h136.533h25.6V405.333z">
+                </path>
+              </svg>
+            </span>
+            <div class="timeline-element-content">
+              <h4>How it all started...</h4>
+
+              <div>
+                <p>
+                  My coding journey began in 2017 when I joined Government Engineering College Rajkot for a Bachelor's
+                  in Computer Engineering. I quickly developed an interest in coding and began learning different
+                  programming languages, which sparked my passion for technology.
+                </p>
+              </div>
+              <span class="timeline-element-date">2017</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-sections">
+      <div class="footer-section">
+        <h2>Contact me</h2>
+        <ul>
+          <li>
+            <span class="social-label">Email: </span>
+            <a href="mailto:anujsp.47@gmail.com" target="_blank" rel="me noopener"
+              data-umami-event="mail-social-footer">
+              anujsp.47@gmail.com
+            </a>
           </li>
-          <li class="l-section section">
-              <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
+
+          <li>
+            <span class="social-label">Mobile: </span>
+            <a href="https://wa.me/916353563291" target="_blank" rel="me noopener"
+              data-umami-event="discord-social-footer">
+              +91 6353563291
+            </a>
           </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>Some Projects</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item">
-                    <a href="#0">
-                        <div class="slider--item-image">
-                          <img src="assets/img/work-victory.jpg" alt="Victory">
-                        </div>
-                        <p class="slider--item-title">Victory2</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="https://github.com/anuj-padhiyar/YoutubeDownloader">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-youtube_downloader.jpg" alt="Metiew and Smith">
-                      </div>
-                      <p class="slider--item-title">Youtube Downloader</p>
-                      <p class="slider--item-description">This project allows users to download individual videos, audio tracks, or entire playlists from YouTube.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="https://github.com/anuj-padhiyar/image-steganography">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-image_stegnography.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Image Stegnography</p>
-                      <p class="slider--item-description">This project enables users to hide secret data within digital images while maintaining the image's visual integrity.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
+
+          <li>
+            <span class="social-label">Linkedin: </span>
+            <a href="https://www.linkedin.com/in/anuj-padhiyar/" target="_blank" rel="me noopener"
+              data-umami-event="matrix-social-footer">
+              anuj-padhiyar
+            </a>
           </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Gujarat, India</p>
-                    <a href="mailto:anujsp.47@gmail.com">anujsp.47@gmail.com</a>
-                    <a href="tel:+148126287560">+91 635 356 32 91 </a>
-                  </div>
-                  <ul class="modal--options">
-                      <li><a href="https://www.linkedin.com/in/anuj-padhiyar-47070216a/">Linked IN</a></li>
-                      <li><a href="https://github.com/anuj-padhiyar">Github</a></li>
-                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="hire">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      App Design
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Graphic Design
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Motion Design
-                    </label>
-                  </span>
-                  <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      UX Design
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Webdesign
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Marketing
-                    </label>
-                  </span>
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                <input type="submit" value="Send Request">
-              </form>
-            </div>
+
+          <li>
+            <span class="social-label">Twitter: </span>
+            <a href="https://x.com/anujs74" target="_blank" rel="me noopener" data-umami-event="mastodon-social-footer">
+              anujs74
+            </a>
           </li>
         </ul>
       </div>
+      <div class="footer-section">
+        <h2>Site map</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="impossiblelist/index.html">Impossible List</a></li>
+          <li><a href="cv/index.html">CV</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>About</li>
-    <li>Projects</li>
-    <li>Contact</li>
-    <li>Hire us</li>
-  </ul>
-</div>
+    <div class="copyright">
+      <div class="container">
+        <p class="copyright-text">&copy; Anuj Padhiyar</p>
+      </div>
+    </div>
+  </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const navbar = document.querySelector("nav");
+      const observer = new IntersectionObserver((entries) => {
+        if (entries[0].boundingClientRect.y < 0) {
+          navbar.classList.add("navbar--sticky");
+        } else {
+          navbar.classList.remove("navbar--sticky");
+        }
+      });
+      observer.observe(document.querySelector("#navbar-trigger"));
+
+      const drawer = document.getElementById("navbar-drawer");
+      const drawerOpenBtn = document.getElementById("drawer-open");
+      const drawerCloseBtn = document.getElementById("drawer-close");
+
+      drawerOpenBtn.addEventListener("click", () => {
+        drawer.showModal();
+      });
+      document
+        .querySelectorAll("#drawer-close, #navbar-drawer a")
+        .forEach((element) => {
+          element.addEventListener("click", () => {
+            drawer.close();
+          });
+        });
+    });
+  </script>
+
+  <script src="js/particles.min.js"></script>
+  <script>
+    particlesJS("tsparticles", {
+      particles: {
+        links: {
+          enable: true,
+          distance: 100,
+          opacity: 0.5,
+        },
+        number: {
+          density: {
+            enable: true,
+            value_area: 800,
+          },
+          value: 55,
+        },
+        size: {
+          value: 3,
+        },
+        move: {
+          direction: "none",
+          enable: true,
+          outMode: "bounce",
+          random: false,
+          speed: 3,
+          straight: false,
+        },
+        opacity: {
+          value: 0.5,
+        },
+      },
+      retina_detect: true,
+    });
+  </script>
 </body>
+
 </html>
+
+<!-- for icon https://www.flaticon.com/ -->
+<!-- for png to svg convert https://webutility.io/image-to-svg-converter -->
